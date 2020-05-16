@@ -1,0 +1,48 @@
+.header {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../assets/sd.jpg);
+    background-color: hsla(0,0%,100%,.4);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 90%;
+    height: 500px;
+    color: white;
+    font-weight: bolder;
+}
+
+.doormat {
+    height: 40em;
+    background-color: black;
+    color: white;
+}
+
+.doormat-left {
+    margin-left: 4em;
+}
+
+.doormat-right {
+    margin-right: 4em;
+}
+
+.doormat-main-text {
+    font-family: 'special elite';
+    font-size: 3.2em;
+}
+
+.doormat-sub-text-white {
+    font-family: 'special elite';
+    font-size: 1em;
+    background-color: white;
+    color: black;
+    width: 13em;
+}
+
+.doormat-sub-text {
+    font-family: 'special elite';
+    font-size: 1em;
+}
+
+.doormat-image {
+    height: 20em;
+    width: 20em;
+}

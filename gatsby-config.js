@@ -6,5 +6,16 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [],
+  plugins: [
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `special elite`,
+          `oswald` // you can also specify font weights and styles
+        ],
+        display: 'swap'
+      }
+    }
+  ],
 }
