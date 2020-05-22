@@ -1,3 +1,7 @@
+.landingView {
+    height: 100vh;
+}
+
 .header {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(../assets/sd.jpg);
@@ -17,16 +21,17 @@
 }
 
 .doormat-left {
-    margin-left: 4em;
+    /* padding-left: 3em; */
 }
 
 .doormat-right {
-    margin-right: 4em;
+    text-align: center;
 }
 
 .doormat-main-text {
     font-family: 'special elite';
     font-size: 3.2em;
+    text-align: center;
 }
 
 .doormat-sub-text-white {
@@ -35,14 +40,131 @@
     background-color: white;
     color: black;
     width: 13em;
+    animation: fadeInLeft;
+    --animate-delay: 0.5s;
+    /* margin-left: auto;
+    margin-right: auto; */
 }
 
 .doormat-sub-text {
     font-family: 'special elite';
     font-size: 1em;
+    text-align: center;
 }
 
 .doormat-image {
     height: 20em;
     width: 20em;
+}
+
+.doormat-bottom {
+    font-family: oswald;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 1.5em;
+}
+
+.doormat-bottom-btn-container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.doormat-bottom-left {
+    text-align: right;
+    margin-right: 1em;
+}
+
+.doormat-bottom-btn {
+    width: 100%;
+    font-size: .8em;
+    background-color: #5271ff;
+    border-color: #5271ff;
+    color: white;
+    text-shadow: 0 0 3px black;
+    /*
+    mint #5271ff
+    blood orange #ffde59
+    pale blue #5271ff
+    pale orange #ffde59
+    */
+
+}
+
+.doormat-bottom-right {
+    text-align: left;
+    margin-left: 1em;
+}
+
+.section-header {
+    font-family: 'special elite';
+    font-size: 3.2em;
+    color: white;
+    text-align: center;
+    margin-top: 1em;
+    text-shadow: 0 0 5px black
+}
+
+.card {
+    background-color: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-body {
+    background-color: black;
+    color: white;
+}
+
+.card-title {
+    font-family: oswald;
+    font-size: 2em;
+}
+
+.project-btn-div {
+    text-align: center;
+}
+
+.project-btn {
+    background-color: #5271ff;
+}
+
+.contactLabel {
+    font-family: oswald;
+    font-size: 1.5em;
+    color: white;
+    margin-top: 1em;
+}
+
+.contactBtn {
+    margin-top: 2em;
+    width: 100%;
+    font-size: 1.2em;
+    background-color: #5271ff;
+    border-color: #5271ff;
+    color: white;
+    text-shadow: 0 0 3px black;
+}
+
+.copyright {
+    color: white;
+    font-size: 1em;
+    margin-top: 4em;
+}
+
+@media screen and (max-width: 768px) {
+    .doormat-bottom-btn-container {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .doormat-bottom-left {
+        text-align: center;
+        margin-right: 0;
+        margin-bottom: .5em
+    }
+
+    .doormat-bottom-right {
+        text-align: center;
+        margin-left: 0;
+        margin-top: .5em;
+    }
 }
