@@ -77,11 +77,14 @@
 .doormat-bottom-btn {
     width: 100%;
     font-size: .8em;
-    background-color: #5271ff;
-    border-color: #5271ff;
+    background-color: #39ffc4;
+    border-color: #0affe2;
     color: white;
     text-shadow: 0 0 3px black;
     /*
+    pale green #c0e2d1
+    dark green #527565
+    ray green #0affe2
     mint #5271ff
     blood orange #ffde59
     pale blue #5271ff
@@ -119,12 +122,37 @@
     font-size: 2em;
 }
 
+.projects {
+    background-color: #c0e2d1;
+    padding-bottom: 3em;
+}
+
 .project-btn-div {
     text-align: center;
 }
 
 .project-btn {
-    background-color: #5271ff;
+    color: black;
+    background-color: white;
+    font-family: oswald;
+    font-size: 1.2em;
+    width: 4em;
+    margin: .2em;
+}
+
+.project-carousel {
+    text-shadow: 1px 1px .5em black;
+    width: auto;
+}
+
+.project-carousel-text {
+    background-color: rgba(21, 255, 204, 0.3);
+}
+
+.contact {
+    height: 100vh;
+    background-color: #527565;
+    padding-bottom: 3em;
 }
 
 .contactLabel {
@@ -138,8 +166,8 @@
     margin-top: 2em;
     width: 100%;
     font-size: 1.2em;
-    background-color: #5271ff;
-    border-color: #5271ff;
+    background-color: black;
+    border-color: black;
     color: white;
     text-shadow: 0 0 3px black;
 }

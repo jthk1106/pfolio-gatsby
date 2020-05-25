@@ -14,20 +14,20 @@ class Contact extends React.Component {
     render() {
         console.log(this.state.name, this.state.email, this.state.message)
         return (
-            <div className="container-fluid" style={{backgroundColor: "black", paddingBottom: "3em"}}>
+            <div className="container-fluid contact" style={{backgroundColor: "#527565", paddingBottom: "3em"}}>
                 <div className="row">
                     <div className="col section-header">
                         Contact
                     </div>
                 </div>
-                <div className="row justify-content-center" style={{marginTop: "1em"}}>
+                <div className="row justify-content-center" id="contactSection" style={{marginTop: "1em"}}>
                     <div className="col-12 col-md-4">
                         <div className="row">
                             <div className="col">
                                 <label className="contactLabel" htmlFor="">
                                     Name
                                 </label>
-                                <input type="text" class="form-control" onChange={(e) => this.setState({name: e.target.value})}></input>
+                                <input type="text" className="form-control" onChange={(e) => this.setState({name: e.target.value})}></input>
                             </div>
                         </div>
                         <div className="row">
@@ -35,7 +35,7 @@ class Contact extends React.Component {
                                 <label className="contactLabel" htmlFor="">
                                     Email
                                 </label>
-                                <input type="text" class="form-control" onChange={(e) => this.setState({email: e.target.value})}></input>
+                                <input type="text" className="form-control" onChange={(e) => this.setState({email: e.target.value})}></input>
                             </div>
                         </div>
                         <div className="row">

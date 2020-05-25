@@ -1,5 +1,5 @@
 import React from 'react';
-import initials from "../assets/doer-blu-yel.png"
+import initials from "../assets/doer-greens.png"
 import animated from "animate.css"
 
 class Doormat extends React.Component {
@@ -42,7 +42,9 @@ class Doormat extends React.Component {
                         Seen enough?
                     </div>
                     <div className="col-4 col-md-1 doormat-bottom-btn-container">
+                        <a href="#contactSection">
                         <button className="btn btn-dark doormat-bottom-btn">CONTACT ME</button>
+                        </a>
                     </div>
                     <div className="col-12 col-md doormat-bottom-right">
                         Or scroll down for more
