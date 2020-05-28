@@ -146,7 +146,12 @@
 }
 
 .project-carousel-text {
-    background-color: rgba(21, 255, 204, 0.3);
+    background-color: rgba(69, 252, 182, 0.3);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 .contact {
