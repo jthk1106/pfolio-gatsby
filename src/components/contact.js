@@ -11,8 +11,27 @@ class Contact extends React.Component {
         }
     }
 
+    send = () => {
+        // fetch('https://jk-pfolio-server.herokuapp.com/contact',
+        fetch('http://localhost:3000/contact',
+            {
+                method: 'POST',
+                body: JSON.stringify({
+                    name: this.state.name,
+                    email: this.state.email,
+                    message: this.state.message
+                }),
+                headers: {
+                    'Content-Type':'application/json; charset=UTF-8'
+                }
+            }    
+        )
+            .then(data => {return data.json()})
+            .then(res => console.log('RES: ', res))
+            .catch(err => console.log('ERR: ', err))
+    }
+
     render() {
-        console.log(this.state.name, this.state.email, this.state.message)
         return (
             <div className="container-fluid contact" style={{backgroundColor: "#527565", paddingBottom: "3em"}}>
                 <div className="row">
@@ -48,7 +67,7 @@ class Contact extends React.Component {
                         </div>
                         <div className="row justify-content-center">
                             <div className="col-auto">
-                                <button className="btn btn-dark contactBtn">SUBMIT</button>
+                                <button className="btn btn-dark contactBtn" onClick={this.send}>SUBMIT</button>
                             </div>
                         </div>
                     </div>
