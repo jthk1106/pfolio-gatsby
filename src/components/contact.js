@@ -12,8 +12,7 @@ class Contact extends React.Component {
     }
 
     send = () => {
-        // fetch('https://jk-pfolio-server.herokuapp.com/contact',
-        fetch('http://localhost:3000/contact',
+        fetch('https://jk-pfolio-server.herokuapp.com/contact',
             {
                 method: 'POST',
                 body: JSON.stringify({
