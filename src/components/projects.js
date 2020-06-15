@@ -41,8 +41,8 @@ class Projects extends React.Component {
                                 <h5 className="card-title">covid19 monitor</h5>
                                 <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 <div className="project-btn-div">
-                                    <a href="#" className="btn btn-dark project-btn">Live</a>
-                                    <a href="#" className="btn btn-dark project-btn">Github</a>
+                                    <a href="https://c19monitor.surge.sh/" target="_blank" className="btn btn-dark project-btn">Live</a>
+                                    <a href="https://github.com/jthk1106/jamC19" target="_blank" className="btn btn-dark project-btn">Github</a>
                                 </div>
                             </div>
                         </div>
@@ -51,11 +51,11 @@ class Projects extends React.Component {
                         <div className="card" style={{width: ""}}>
                             <img className="card-img-top" src={vstda} alt="Card image cap"/>
                             <div className="card-body">
-                                <h5 className="card-title">very simple to do app</h5>
+                                <h5 className="card-title">very simple to-do app</h5>
                                 <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 <div className="project-btn-div">
-                                    <a href="#" className="btn btn-dark project-btn">Live</a>
-                                    <a href="#" className="btn btn-dark project-btn">Github</a>
+                                    <a href="https://vstda-by-jk.now.sh/" target="_blank" className="btn btn-dark project-btn">Live</a>
+                                    <a href="https://github.com/jthk1106/react-vstda" target="_blank" className="btn btn-dark project-btn">Github</a>
                                 </div>
                             </div>
                         </div>
@@ -70,8 +70,8 @@ class Projects extends React.Component {
                                 <h5 className="card-title">the urban speaker</h5>
                                 <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 <div className="project-btn-div">
-                                    <a href="#" className="btn btn-dark project-btn">Live</a>
-                                    <a href="#" className="btn btn-dark project-btn">Github</a>
+                                    <a href="https://theurbanspeaker.herokuapp.com/" target="_blank" className="btn btn-dark project-btn">Live</a>
+                                    <a href="https://github.com/jthk1106/the-urban-speaker" target="_blank" className="btn btn-dark project-btn">Github</a>
                                 </div>
                             </div>
                         </div>
@@ -88,7 +88,7 @@ class Projects extends React.Component {
                                         alt="First slide"
                                     />
                                     <Carousel.Caption>
-                                        <h3 className='project-carousel-text'>Business Manage Reviews</h3>
+                                        <h3 className='project-carousel-text'>Manage Reviews (admin)</h3>
                                         {/* <p className='project-carousel-text'>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
                                     </Carousel.Caption>
                                 </Carousel.Item>
@@ -99,7 +99,7 @@ class Projects extends React.Component {
                                         alt="Second slide"
                                     />
                                     <Carousel.Caption>
-                                        <h3 className='project-carousel-text'>Business Review Respond</h3>
+                                        <h3 className='project-carousel-text'>Review Response (admin)</h3>
                                         {/* <p className='project-carousel-text'>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
                                     </Carousel.Caption>
                                 </Carousel.Item>
@@ -110,7 +110,7 @@ class Projects extends React.Component {
                                         alt="Third slide"
                                     />
                                     <Carousel.Caption>
-                                        <h3 className='project-carousel-text'>User Reviews View</h3>
+                                        <h3 className='project-carousel-text'>Restaurant Reviews (user)</h3>
                                         {/* <p className='project-carousel-text'>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
                                     </Carousel.Caption>
                                 </Carousel.Item>
@@ -121,7 +121,7 @@ class Projects extends React.Component {
                                         alt="Fourth slide"
                                     />
                                     <Carousel.Caption>
-                                        <h3 className='project-carousel-text'>Business Manage Menu</h3>
+                                        <h3 className='project-carousel-text'>Manage Menu (admin)</h3>
                                         {/* <p className='project-carousel-text'>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
                                     </Carousel.Caption>
                                 </Carousel.Item>
@@ -132,7 +132,7 @@ class Projects extends React.Component {
                                         alt="Fifth slide"
                                     />
                                     <Carousel.Caption>
-                                        <h3 className='project-carousel-text'>Business Edit Menu Item</h3>
+                                        <h3 className='project-carousel-text'>Edit Menu Item (admin)</h3>
                                         {/* <p className='project-carousel-text'>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
                                     </Carousel.Caption>
                                 </Carousel.Item>
@@ -143,13 +143,13 @@ class Projects extends React.Component {
                                         alt="Sixth slide"
                                     />
                                     <Carousel.Caption>
-                                        <h3 className='project-carousel-text'>Business Add Menu Item</h3>
+                                        <h3 className='project-carousel-text'>Add Menu Item (admin)</h3>
                                         {/* <p className='project-carousel-text'>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
                                     </Carousel.Caption>
                                 </Carousel.Item>
                             </Carousel>
                             <div className="card-body">
-                                <h5 className="card-title">street eats app</h5>
+                                <h5 className="card-title">food truck locator and review app (production)</h5>
                                 <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 <div className="project-btn-div">
                                     <a href="#" className="btn btn-dark project-btn">Live</a>
@@ -212,7 +212,7 @@ class Projects extends React.Component {
                                         alt="Fifth slide"
                                     />
                                     <Carousel.Caption>
-                                        <h3 className='project-carousel-text'>Admin View Student</h3>
+                                        <h3 className='project-carousel-text'>Admin Student View</h3>
                                         {/* <p className='project-carousel-text'>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> */}
                                     </Carousel.Caption>
                                 </Carousel.Item>
@@ -240,7 +240,7 @@ class Projects extends React.Component {
                                 </Carousel.Item>
                             </Carousel>
                             <div className="card-body">
-                                <h5 className="card-title">slackbot</h5>
+                                <h5 className="card-title">admin & user dashboards (production)</h5>
                                 <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 <div className="project-btn-div">
                                     <a href="#" className="btn btn-dark project-btn">Live</a>

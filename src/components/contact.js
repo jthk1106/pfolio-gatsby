@@ -28,6 +28,7 @@ class Contact extends React.Component {
         )
             .then(data => {return data.json()})
             .then(res => console.log('RES: ', res))
+            .then(alert('Your email was sent, thanks!'))
             .catch(err => console.log('ERR: ', err))
     }
 
@@ -62,7 +63,7 @@ class Contact extends React.Component {
                                 <label className="contactLabel" htmlFor="">
                                     Message
                                 </label>
-                                <textarea type="text" class="form-control" onChange={(e) => this.setState({message: e.target.value})}></textarea>
+                                <textarea type="text" className="form-control" onChange={(e) => this.setState({message: e.target.value})}></textarea>
                             </div>
                         </div>
                         <div className="row justify-content-center">
