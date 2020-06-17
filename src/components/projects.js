@@ -149,11 +149,13 @@ class Projects extends React.Component {
                                 </Carousel.Item>
                             </Carousel>
                             <div className="card-body">
-                                <h5 className="card-title">food truck locator and review app (production)</h5>
+                                <h5 className="card-title">food truck locator app (production)</h5>
                                 <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 <div className="project-btn-div">
-                                    <a href="#" className="btn btn-dark project-btn">Live</a>
-                                    <a href="#" className="btn btn-dark project-btn">Github</a>
+                                    {/* <a href="#" className="btn btn-dark project-btn">Live</a>
+                                    <a href="#" className="btn btn-dark project-btn">Github</a> */}
+                                    <p className="dash"></p>
+                                    <p className="card-text">*Inquire for more information, code samples, etc.</p>
                                 </div>
                             </div>
                         </div>
@@ -243,8 +245,10 @@ class Projects extends React.Component {
                                 <h5 className="card-title">admin & user dashboards (production)</h5>
                                 <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 <div className="project-btn-div">
-                                    <a href="#" className="btn btn-dark project-btn">Live</a>
-                                    <a href="#" className="btn btn-dark project-btn">Github</a>
+                                    {/* <a href="#" className="btn btn-dark project-btn">Live</a>
+                                    <a href="#" className="btn btn-dark project-btn">Github</a> */}
+                                    <p className="dash"></p>
+                                    <p className="card-text">*Inquire for more information, code samples, etc.</p>
                                 </div>
                             </div>
                         </div>

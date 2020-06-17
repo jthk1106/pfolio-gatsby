@@ -27,7 +27,7 @@ class Contact extends React.Component {
         )
             .then(data => {return data.json()})
             .then(res => console.log('RES: ', res))
-            .then(alert('Your email was sent, thanks!'))
+            .then(alert("Your email was sent! Don't hold your breath for a response! (but you'll get a response soon)"))
             .catch(err => console.log('ERR: ', err))
     }
 
