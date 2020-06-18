@@ -155,7 +155,7 @@ class Projects extends React.Component {
                                     {/* <a href="#" className="btn btn-dark project-btn">Live</a>
                                     <a href="#" className="btn btn-dark project-btn">Github</a> */}
                                     <p className="dash"></p>
-                                    <p className="card-text">*Inquire for more information, code samples, etc.</p>
+                                    <p className="card-text">*Please inquire for more information, code samples, etc.</p>
                                 </div>
                             </div>
                         </div>
@@ -248,7 +248,7 @@ class Projects extends React.Component {
                                     {/* <a href="#" className="btn btn-dark project-btn">Live</a>
                                     <a href="#" className="btn btn-dark project-btn">Github</a> */}
                                     <p className="dash"></p>
-                                    <p className="card-text">*Inquire for more information, code samples, etc.</p>
+                                    <p className="card-text">*Please inquire for more information, code samples, etc.</p>
                                 </div>
                             </div>
                         </div>
