@@ -146,7 +146,8 @@
 }
 
 .project-carousel-text {
-    background-color: rgba(69, 252, 182, 0.3);
+    font-family: oswald;
+    background-color: rgba(57, 255, 196, 0.5);
 }
 
 .carousel-control-prev-icon,

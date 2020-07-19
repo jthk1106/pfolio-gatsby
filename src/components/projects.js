@@ -39,7 +39,9 @@ class Projects extends React.Component {
                             <img className="card-img-top" src={c19} alt="Card image cap"/>
                             <div className="card-body">
                                 <h5 className="card-title">covid19 monitor</h5>
-                                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <p className="card-text">
+                                    Gatsby - Surge - disease.sh API - Bootstrap
+                                </p>
                                 <div className="project-btn-div">
                                     <a href="https://c19monitor.surge.sh/" target="_blank" className="btn btn-dark project-btn">Live</a>
                                     <a href="https://github.com/jthk1106/jamC19" target="_blank" className="btn btn-dark project-btn">Github</a>
